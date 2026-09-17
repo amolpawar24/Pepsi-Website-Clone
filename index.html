@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ASSETS/PepsiLogo@3x.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/Pepsi.css">
+    <title>Pepsi</title>
+</head>
+<body>
+<!--! =============================================================== MAIN STARTS ===========================================================  -->
+    <main class="Pepsi">
+    <!--! ========================================================== NAVBAR STARTS =======================================================  -->
+        <div id="Navbar">
+            <div id="NavLogo">
+            </div>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://www.pepsi.com/#!products">Products</a></li>
+                    <li><a href="https://www.pepsi.com/#!products/nitro-pepsi-vinilla">Whats'New</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="https://contact.pepsico.com/pepsi">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    <!--! ========================================================== NAVBAR ENDS =======================================================  -->
+
+    <!--! ========================================================== HOME STARTS =======================================================  -->
+    <div id="Home">
+        <div id="HomeContainer">
+            <div id="HomeContent">
+                <h2>That's What<br><span>I like</span></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<a href="https://www.pepsi.com/#!products">View All Products</a>
+            </div>
+            <div id="HomeImage">
+                <img src="./ASSETS/pepsi001.png" alt="" class="HomeImg">
+            </div>
+            <div id="HomeLinks">
+                <li><a href="#"><img src="./ASSETS/facebook.png"></a></li>
+                <li><a href="#"><img src="./ASSETS/twitter.png"></a></li>
+                <li><a href="#"><img src="./ASSETS/instagram.png"></a></li>
+            </div>
+        </div>
+        <div id="HomePepsi">
+            <li><img src="./ASSETS/pepsi001.png" onclick="imgSlider('./ASSETS/pepsi001.png'); 
+            changeBgColor('#0025ff')"></li>	
+            <li><img src="./ASSETS/pepsi002.png" onclick="imgSlider('../ASSETS/pepsi002.png'); 
+            changeBgColor('#e60c2c')"></li>
+            <li><img src="./ASSETS/pepsi003.png" onclick="imgSlider('./ASSETS/pepsi003.png'); 
+            changeBgColor('#1e1e1e')"></li>
+        </div>
+    </div>
+    <!--! ========================================================== HOME ENDS =========================================================  -->
+    <!--! ========================================================== ZERO SUGAR STARTS ======================================================  -->
+    <div id="ZeroSugar">
+        <div id="ZeroSugerContainer">
+            <div id="ZeroSugarImg">
+
+            </div>
+            <div id="ZeroSugarContent">
+
+            </div>
+        </div>
+    </div>
+    <!--! ========================================================== ZERO SUGAR ENDS ========================================================  -->
+
+
+    <!--! ======================================================== PRODUCTS STARTS ========================================================  -->
+    <div id="Products">
+        <div id="ProductsContainer">
+            
+            <div class="ProductVideo" id="Video1">
+                <video src="./ASSETS/Pepsi By BlackPink.mp4" muted controls autoplay loop></video>
+            </div>
+            <div id="NitroPepsi">
+                
+            </div>
+
+        </div>
+    </div>
+    <!--! ========================================================== PRODUCTS ENDS =========================================================  -->
+    <div id="Gallery">
+        <div id="GalleryContainer">
+            <video muted autoplay controls loop>
+                <source src="./ASSETS/Every Day is a Holiday  Pepsi_1080p.mp4" type="video/mp4">
+            </video>
+            <h1>PEPSI</h1>
+        </div>
+    </div>
+
+    </main>
+<!--! =============================================================== MAIN ENDS ===========================================================  -->
+<!--! =============================================================== SCRIPTS STARTS ===========================================================  -->
+<script src="./JAVASCRIPT/Pepsi.js"></script>
+<!--! ============================================================== SCRIPTS ENDS ==========================================================  -->
+
+
+</body>
+</html>
